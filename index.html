@@ -34,14 +34,24 @@
             <a href="#" class="m5-nav-link">Rider's Joy</a>
           </div>
           <div class="right">
-            <span><a href="" class="m5-nav-link me-3">Home</a></span>
-            <span><a href="" class="m5-nav-link me-3">About Us</a></span>
-            <span><a href="" class="m5-nav-link me-3">Contact US</a></span>
-            <span><a href="" class="m5-nav-link">Our Services</a></span>
+            <span><a href="#Home" class="m5-nav-link me-3">Home</a></span>
+            <span
+              ><a href="#AboutUs" class="m5-nav-link me-3">About Us</a></span
+            >
+            <span
+              ><a href="#Contact-Us" class="m5-nav-link me-3"
+                >Contact US</a
+              ></span
+            >
+            <span
+              ><a href="#Our-Services" class="m5-nav-link"
+                >Our Services</a
+              ></span
+            >
           </div>
         </div>
         <hr />
-        <div class="image-container">
+        <div class="image-container" id="Home">
           <div class="row landing px-5">
             <div class="col-md-8">
               <h1 class="main-title">Rider's Joy</h1>
@@ -68,8 +78,8 @@
             />
           </div>
           <div class="col-md-7">
-            <h2>ABOUT US</h2>
-            <p>
+            <h2 class="sub-heading">ABOUT US</h2>
+            <p class="mt-4">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
               dolorum id odio consequatur officiis pariatur iure numquam
               accusantium non laborum voluptatum, veniam perspiciatis fugit
@@ -81,8 +91,8 @@
             </p>
           </div>
         </div>
-        <div class="our-services-sec px-5">
-          <h2>OUR SERVICES</h2>
+        <div class="our-services-sec px-5" id="Our-Services">
+          <h2 class="sub-heading">OUR SERVICES</h2>
           <div class="service-container">
             <div class="service-card">
               <h4>Service 1</h4>
@@ -125,13 +135,31 @@
       </div>
 
       <!-- contact details -->
-      <div class="contact-info">
-        <h1>CONTACT US</h1>
-
-        <input type="text" placeholder="FULL NAME" />
-        <input type="text" placeholder="LAST NAME" />
-        <input type="email" placeholder="EMAIL ADDRESS" />
-        <input type="text" placeholder="REASON FOR CONTACTING" />
+      <div class="contact-info" id="Contact-Us">
+        <h2 class="sub-heading text-center" style="color: white">CONTACT US</h2>
+        <div class="contact-input-container">
+          <input
+            class="contact-info-input"
+            type="text"
+            placeholder="Full Name"
+          />
+          <input
+            class="contact-info-input"
+            type="text"
+            placeholder="Last Name"
+          />
+          <input
+            class="contact-info-input"
+            type="email"
+            placeholder="Email Address"
+          />
+          <input
+            class="contact-info-input"
+            type="text"
+            placeholder="Reason For Contacting"
+          />
+          <button class="submit-btn">Submit</button>
+        </div>
       </div>
     </div>
   </body>
