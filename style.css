@@ -11,6 +11,13 @@
   text-decoration: none;
 }
 
+.m5-navbar {
+  padding-inline: 15px !important;
+  padding-bottom: 12px !important;
+  border-bottom: solid 2px white;
+  background-color: black;
+}
+
 hr {
   border: none;
   background-color: #ffffff;
@@ -35,6 +42,8 @@ hr {
   color: white;
   text-transform: uppercase;
   font-weight: 700;
+  animation-name: fade-in;
+  animation-duration: 2s;
 }
 
 .about-sec {
@@ -69,6 +78,12 @@ hr {
   flex-grow: 0;
   flex-shrink: 0;
   border: 2px solid black;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  background-color: black;
+  color: white;
 }
 
 .sub-heading {
@@ -108,4 +123,20 @@ hr {
   width: 100px;
   margin: auto;
   margin-top: 10px;
+}
+
+.down-arrow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
