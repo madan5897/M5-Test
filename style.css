@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "inter";
+  /* background-color: black; */
+  overflow-x: hidden;
+}
+
+.m5-nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  background-color: #ffffff;
+  height: 3px;
+  margin-inline: -12px;
+  margin: 0rem 0 !important;
+}
+
+.hero-container {
+  background-color: black;
+}
+
+.landing {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+
+.main-title {
+  font-size: 90px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.about-sec {
+  background-color: white !important;
+}
+
+.content {
+  margin-block: 100px;
+}
+.our-services-sec {
+  margin-block: 100px;
+}
+.service-container {
+  margin-top: 30px;
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: stretch;
+  display: flex;
+  scrollbar-width: none;
+  flex-wrap: nowrap;
+}
+
+.service-container::-webkit-scrollbar {
+  display: none;
+}
+
+.service-card {
+  max-width: 33.333%;
+  margin-right: 35px;
+  flex-basis: 33.333%;
+  padding: 30px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  border: 2px solid black;
+}
